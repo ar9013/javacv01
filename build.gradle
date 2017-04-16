@@ -1,0 +1,29 @@
+group 'com.ar9013.javacv01'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.bytedeco', name: 'javacv-platform', version: '1.3.2'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+group 'com.ar9013.javacv01'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
