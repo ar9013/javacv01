@@ -10,7 +10,7 @@ import static org.bytedeco.javacpp.opencv_imgcodecs.imread;
 public class App {
 
     public static void main(String args[]) {
-        System.out.println("Hello World!");
+        System.out.println("JavaCV Hello World");
 
         opencv_core.IplImage src = cvLoadImage("Ariel_Lee.png");
 
